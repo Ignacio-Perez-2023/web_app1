@@ -1,0 +1,22 @@
+<h1>Tacos are delish</h1>
+
+<!-- Comments 
+% is to say "whatever is in here, read it as ruby code"
+"=" you need this after % in substitute of "puts"
+-->
+
+<% 
+tacos = ["Carnitas", "Al Pastor", "Fish", "Pollo", "Asada"]
+
+ %>
+
+<p> There are <%= tacos.count %> tacos: </p>
+
+<ul>
+    <% for taco in tacos%>
+    <li><%= taco %> </li>
+    <% end %>
+
+
+    
+</ul>
